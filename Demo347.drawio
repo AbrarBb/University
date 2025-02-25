@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Page-1" id="jULwNqwdHB4nZsapxz7m">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ei1IFfwYmnaYi5uoQAFk-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei1IFfwYmnaYi5uoQAFk-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei1IFfwYmnaYi5uoQAFk-3" value="Home" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="150" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei1IFfwYmnaYi5uoQAFk-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei1IFfwYmnaYi5uoQAFk-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;blockquote style=&quot;box-sizing: border-box; margin: 10px 0px 24px; padding: 10px 24px; border: 0px; vertical-align: baseline; quotes: none; border-radius: 14px; word-break: break-word; line-height: 1.2;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Online Banking&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;System&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; border: 0px; vertical-align: baseline;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px;&quot;&gt;Actor: Customer&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px;&quot;&gt;Use Case: Transfer Funds&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px;&quot;&gt;Association: A line connecting the &quot;Customer&quot; actor to the &quot;Transfer Funds&quot; use case, indicating the customer&#39;s involvement in the funds transfer process.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/h1&gt;" style="text;html=1;overflow=hidden;rounded=0;whiteSpace=wrap;labelBorderColor=none;labelBackgroundColor=none;fontStyle=2;fontFamily=Comic Sans MS;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="290" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei1IFfwYmnaYi5uoQAFk-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360.0000000000001" as="sourcePoint" />
+            <mxPoint x="970" y="360.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
