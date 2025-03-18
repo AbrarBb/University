@@ -1,0 +1,92 @@
+/*Create a program named stat that takes an integer array as an input(delimited by some character such as S). The program then creates 3 child processes each of which does exactly one task from the following. 
+a) Adds them and print the result on the screen. (done by child 1) 
+b) Shows the average on the screen. (done by child 2) 
+c) Print the maximum number on the screen. (done by child 3)
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+
+void add(int *arr, int size) {
+    int sum = 0;
+    for (int i = 0; i < size; i++) {
+        sum += arr[i];
+    }
+    printf("Sum: %d\n", sum);
+}
+
+void average(int *arr, int size) {
+    if (size == 0) {
+        printf("Average: 0\n");
+        return;
+    }
+    int sum = 0;
+    for (int i = 0; i < size; i++) {
+        sum += arr[i];
+    }
+    printf("Average: %.2f\n", (float)sum / size);
+}
+
+void maximum(int *arr, int size) {
+    if (size == 0) {
+        printf("Maximum: 0\n");
+        return;
+    }
+    int max = arr[0];
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    printf("Maximum: %d\n", max);
+}
+
+int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        fprintf(stderr, "Usage: %s <numbers delimited by $>\n", argv[0]);
+        return 1;
+    }
+
+
+    char *input = argv[1];
+    char *token;
+    int arr[100]; 
+    int size = 0;
+
+    token = strtok(input, "$");
+    while (token != NULL) {
+        arr[size++] = atoi(token);
+        token = strtok(NULL, "$");
+    }
+
+    pid_t pid1, pid2, pid3;
+
+    
+    if ((pid1 = fork()) == 0) {
+        add(arr, size);
+        exit(0);
+    } else {
+        waitpid(pid1, NULL, 0); 
+    }
+
+
+    if ((pid2 = fork()) == 0) {
+        average(arr, size);
+        exit(0);
+    } else {
+        waitpid(pid2, NULL, 0); 
+    }
+
+    
+    if ((pid3 = fork()) == 0) {
+        maximum(arr, size);
+        exit(0);
+    } else {
+        waitpid(pid3, NULL, 0); 
+    }
+
+    return 0;
+}
