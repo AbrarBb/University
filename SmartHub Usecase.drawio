@@ -1,9 +1,169 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.1.1">
   <diagram name="Page-1" id="P93JPWheiozPxKUeNlvs">
-    <mxGraphModel>
+    <mxGraphModel dx="2631" dy="2003" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-16" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="-497" width="309" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-503" width="620" height="3594" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-2" target="wq_cdWP_0D8ncxT4c9OT-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-47" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-2" target="wq_cdWP_0D8ncxT4c9OT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3" y="-430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-51" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-3" target="wq_cdWP_0D8ncxT4c9OT-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-3" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="22" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-4" target="wq_cdWP_0D8ncxT4c9OT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-4" target="wq_cdWP_0D8ncxT4c9OT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-4" target="wq_cdWP_0D8ncxT4c9OT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-4" target="wq_cdWP_0D8ncxT4c9OT-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-4" value="Registered&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-16" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-6" target="wq_cdWP_0D8ncxT4c9OT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-6" target="wq_cdWP_0D8ncxT4c9OT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-6" value="Non-Registered&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="-269" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-45" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-8" target="wq_cdWP_0D8ncxT4c9OT-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-8" value="Account Registration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="-409" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-9" target="wq_cdWP_0D8ncxT4c9OT-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-9" value="Explore University Resources" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-217" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-10" value="CGPA Calculator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="447" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-11" value="View Course Flowchart" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="211" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-12" value="Setup Preferences" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="17" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-13" value="Set Class Routine" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="301" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-14" value="Upload Grade Sheet &amp;amp; Get Course Suggestions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="678" width="136" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-15" value="&lt;h3&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(128, 128, 128);&quot; face=&quot;Verdana&quot;&gt;Level 0: Onboarding &amp;amp; Exploration&lt;/font&gt;&lt;/b&gt;&lt;/h3&gt;&lt;hr&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="-494" width="312" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-17" value="&lt;h3&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;color: rgb(128, 128, 128);&quot;&gt;Level 1: Basic Academic Planning&lt;/font&gt;&lt;/b&gt;&lt;hr&gt;&lt;/h3&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="134" width="312" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-18" value="&lt;h3&gt;&lt;font style=&quot;color: rgb(128, 128, 128);&quot;&gt;Level 2: Academic Planner &amp;amp; CGPA Optimization&lt;/font&gt;&lt;/h3&gt;&lt;hr&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318.5" y="386" width="388" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-19" value="Retake Suggestions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358.5" y="816" width="127" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-21" value="Target CGPA Planning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="562" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-22" value="Major Selection Guidance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="1776" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-23" value="Prerequisite Checking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="940" width="131" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-24" value="Mentorship" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="1649" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-25" value="Course Reviews" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="1186" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-26" value="Faculty Reviews" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="1297" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-27" value="Previous Year Questions &amp;amp; Exam Tips" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="1408" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-28" value="Level 3: Course &amp;amp; Faculty Insights&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297" y="1092" width="388" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-29" value="Level 4: Student Support &amp;amp; Engagement&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308" y="1568" width="388" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-30" value="Connect with Item Owner" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="2425" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-31" value="Class Routine Management" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="1908" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-32" value="Note Sharing System" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="2040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-33" value="Lost &amp;amp; Found Reporting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="2277" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-34" value="Level 5: Lost and Found&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="2192" width="388" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-35" value="Level 6: Financial Aid &amp;amp; Scholarships&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308" y="2543" width="388" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-36" value="View Financial Aid &amp;amp; Scholarship Database" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="2712" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-37" value="Receive Scholarship Notifications" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="2911" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-39" value="Log in" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="-107" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-44" value="Upload ID Card" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="-436" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=1;startArrow=classic;startFill=0;dashed=1;" edge="1" parent="1" source="wq_cdWP_0D8ncxT4c9OT-47" target="wq_cdWP_0D8ncxT4c9OT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-47" value="Validate mail" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="-340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-50" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="1411" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-52" value="Registered&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-129" y="1764" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq_cdWP_0D8ncxT4c9OT-54" value="Mapping&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="663" y="-217" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
