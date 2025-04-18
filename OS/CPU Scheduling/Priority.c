@@ -1,28 +1,29 @@
 #include <stdio.h>
 int main() 
 {
-    int n;
+    int n, a, b, temp;
     printf("Processes: ");
     scanf("%d", &n);
-    int bt[n], pr[n], wt[n]={0}, tat[n], i, j, t;
+    int bt[n], pr[n], wt[n]={0}, tat[n];
     printf("Burst times:\n");
-    for(i=0;i<n;i++) scanf("%d", &bt[i]);
+    for(a=0; a<n; a++) scanf("%d", &bt[a]);
     printf("Priorities:\n");
-    for(i=0;i<n;i++) scanf("%d", &pr[i]);
+    for(a=0; a<n; a++) scanf("%d", &pr[a]);
 
-    for(i=0;i<n-1;i++)
-        for(j=0;j<n-1-i;j++)
-            if(pr[j] > pr[j+1]) {
-                t=pr[j]; pr[j]=pr[j+1]; pr[j+1]=t;
-                t=bt[j]; bt[j]=bt[j+1]; bt[j+1]=t;
+    for(a=0; a<n-1; a++)
+        for(b=0; b<n-1-a; b++)
+            if(pr[b] > pr[b+1]) {
+                temp = pr[b]; pr[b] = pr[b+1]; pr[b+1] = temp;
+                temp = bt[b]; bt[b] = bt[b+1]; bt[b+1] = temp;
             }
 
-    for(i=1;i<n;i++)
-        wt[i] = wt[i-1] + bt[i-1];
-    for(i=0;i<n;i++)
-        tat[i] = wt[i] + bt[i];
+    for(a=1; a<n; a++)
+        wt[a] = wt[a-1] + bt[a-1];
+
+    for(a=0; a<n; a++)
+        tat[a] = wt[a] + bt[a];
 
     printf("P\tBT\tPR\tWT\tTAT\n");
-    for(i=0;i<n;i++)
-        printf("P%d\t%d\t%d\t%d\t%d\n", i+1, bt[i], pr[i], wt[i], tat[i]);
+    for(a=0; a<n; a++)
+        printf("P%d\t%d\t%d\t%d\t%d\n", a+1, bt[a], pr[a], wt[a], tat[a]);
 }
