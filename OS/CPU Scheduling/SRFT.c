@@ -8,6 +8,7 @@ int main()
     int at[n], bt[n], rt[n], wt[n], tat[n];
     printf("Arrival times:\n");
     for(a=0; a<n; a++) scanf("%d", &at[a]);
+    
     printf("Burst times:\n");
     for(a=0; a<n; a++) 
     {
