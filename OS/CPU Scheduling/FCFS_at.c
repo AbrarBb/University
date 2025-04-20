@@ -37,7 +37,7 @@ printf("\n    WT\tTAT\n");
     for(int a=0;a<n;a++)
     {
         tat_s=tat[a]+tat_s;
-        wt_s=wt_wt[a];
+        wt_s+=wt[a];
     }
     printf("\n AvgWT:%.2f\tAvg.TAT:%.2f",(float)wt_s/n,(float)tat_s/n);
 }
