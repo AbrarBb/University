@@ -4,14 +4,13 @@ int main()
   int n, a, at[10], bt[10], rt[10], wt[10], tat[10], done=0, t=0;
   printf("Processes: ");
   scanf("%d", &n);
-  
-  printf("   AT BT\n");
-  for(a=0; a<n; a++) 
+  for(a = 0; a < n; a++) 
   {
-    printf("P%d: ", a+1);
+     printf("P%d: ", a+1);
     scanf("%d %d", &at[a], &bt[a]);
-    
+    rt[a] = bt[a];
   }
+
   while(done < n) 
   {
     int min = 9999, p = -1;
@@ -29,7 +28,7 @@ int main()
     t++;
   }
 
-  printf("P AT BT WT TAT\n");
+  printf("\nP   AT BT WT TAT\n");
   for(a = 0; a < n; a++)
     printf("P%d %2d %2d %2d %3d\n", a+1, at[a], bt[a], wt[a], tat[a]);
 }
