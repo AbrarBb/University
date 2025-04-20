@@ -2,7 +2,7 @@
 int main() 
 {
   int n, a, at[10], bt[10], rt[10], wt[10], tat[10], done=0, t=0;
-  printf("Enter number of processes: ");
+  printf("Processes: ");
   scanf("%d", &n);
   
   printf("   AT BT\n");
