@@ -15,9 +15,11 @@ int main()
         {
             t=at[a];
         }
-        wt[a]=t-at[a];
         t+=bt[a];
-        tat[a]=wt[a]+bt[a];
+        tat[a]=t-at[a];
+        wt[a]=t-at[a]-bt[a];
+        
+        
     }
     
     printf("\n \tBT\tWT\tTAT\n");
