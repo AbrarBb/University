@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="uUIcSil0GLClQxcJma0W">
-    <mxGraphModel dx="7960" dy="3373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="2010" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,7 +123,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aD_YHIlhLt39WR47Mzzr-20" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-46" y="-263" width="150" height="263" as="geometry" />
+          <mxGeometry x="14.25" y="-75" width="29.5" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="aD_YHIlhLt39WR47Mzzr-31" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;Read the scenario and apply the sequence diagram here.&lt;/span&gt;&lt;br style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/h3&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;In this lab assignment, you are required to design a sequence diagram for an Online Food Delivery System. The scenario starts with the Customer browsing the Restaurant&#39;s Menu on a mobile app or website. Once the Customer selects their desired food items, they proceed to place an Order. The Restaurant receives the order, and the system triggers a payment process, prompting the Customer to make the payment through an online payment gateway. After the payment is successfully processed, the Restaurant confirms the order and assigns a Delivery Boy to deliver the food to the Customer&#39;s address. Upon receiving the food, the Customer checks the order for accuracy and provides Confirmation of the delivery. Finally, the Customer has the option to leave a Review for the restaurant and the delivery service, providing feedback on the overall experience. Your task is to create a sequence diagram that illustrates these interactions between the Customer, Restaurant, Payment System, and Delivery Boy, ensuring that each step is represented clearly with the correct sequence of events.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="109" y="-634" width="583" height="504" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
