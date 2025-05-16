@@ -9,20 +9,23 @@ void* printMessage(void* arg) {
 }
 
 int main() {
-    pthread_t threads[3];
-    char* messages[3] = {
-        "Message from thread 1",
-        "Message from thread 2",
-        "Message from thread 3"
-    };
+    pthread_t thread1, thread2, thread3;
 
-    for (int i = 0; i < 3; i++) {
-        pthread_create(&threads[i], NULL, printMessage, messages[i]);
-    }
+    // Messages to be printed by each thread
+    char message1[50] = "Thread 1: Hello!";
+    char message2[50] = "Thread 2: How are you?";
+    char message3[50] = "Thread 3: Goodbye!";
 
-    for (int i = 0; i < 3; i++) {
-        pthread_join(threads[i], NULL);
-    }
+    // Creating three threads
+    pthread_create(&thread1, NULL, printMessage, message1);
+    pthread_create(&thread2, NULL, printMessage, message2);
+    pthread_create(&thread3, NULL, printMessage, message3);
 
+    // Waiting for all three threads to complete
+    pthread_join(thread1, NULL);
+    pthread_join(thread2, NULL);
+    pthread_join(thread3, NULL);
+
+    printf("All threads have completed.\n");
     return 0;
 }
