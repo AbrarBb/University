@@ -806,19 +806,19 @@
           <mxGeometry x="1204" y="10205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PSbExa0zE1-OuVKKdGzU-126" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;3.1 - Authentication&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d0cee2;strokeColor=#857EC2;" vertex="1" parent="1">
-          <mxGeometry x="823.75" y="10762" width="291.75" height="30" as="geometry" />
+          <mxGeometry x="823.75" y="10750" width="291.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSbExa0zE1-OuVKKdGzU-127" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#857BC2;" vertex="1" parent="1">
-          <mxGeometry x="809.8299999999999" y="10814" width="314.33" height="430" as="geometry" />
+          <mxGeometry x="812.4599999999999" y="10804" width="314.33" height="430" as="geometry" />
         </mxCell>
         <mxCell id="PSbExa0zE1-OuVKKdGzU-128" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Two Factor Authentication (2F)&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="871.54" y="10844" width="187.46" height="95" as="geometry" />
+          <mxGeometry x="871.54" y="10844" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PSbExa0zE1-OuVKKdGzU-129" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Role-based Access Control&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="870.46" y="10965" width="203.67" height="96" as="geometry" />
+          <mxGeometry x="872" y="10965" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PSbExa0zE1-OuVKKdGzU-130" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Session Management&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="881.855" y="11086" width="173.25" height="90" as="geometry" />
+          <mxGeometry x="871.54" y="11086" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PSbExa0zE1-OuVKKdGzU-131" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;jumpStyle=arc;" edge="1" parent="1" source="PSbExa0zE1-OuVKKdGzU-134" target="PSbExa0zE1-OuVKKdGzU-128">
           <mxGeometry relative="1" as="geometry" />
