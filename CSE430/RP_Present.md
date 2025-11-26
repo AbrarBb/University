@@ -1,0 +1,2 @@
+- [Paper](https://docs.google.com/document/d/19gcjcngLF-31X7Z2wkDsr3Re4yf7YYc27nmb0AaIvEs/edit?tab=t.p4mijk2jvot7)
+- [Slide](https://www.canva.com/design/DAG5yD8LD9E/qIYBTLb9Ao6Afd6iBMRtPQ/view?utm_content=DAG5yD8LD9E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdc91ce028b)
