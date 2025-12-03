@@ -1,6 +1,6 @@
 - [Docs](https://docs.google.com/document/d/1zfe_jiQguczQujDp9m7zfK26oEOs7KKDtbOD1H_RAz0/edit?usp=sharing)
 -
-- [Project_Proposal SlidePaper](https://www.canva.com/design/DAG2h9moZNM/lUF_M5bjb2wZEv5LpagImw/view?utm_content=DAG2h9moZNM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfce4a38fe5)
+- [Project_Proposal Slide](https://www.canva.com/design/DAG2h9moZNM/lUF_M5bjb2wZEv5LpagImw/view?utm_content=DAG2h9moZNM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfce4a38fe5)
 -
 - [Research_Paper](https://hci.rwth-aachen.de/publications/schaefer2024a.pdf)
 - [Slide](https://www.canva.com/design/DAG6cG3LdwU/Ne7m6ey8H9JzLbFO2RshEQ/view?utm_content=DAG6cG3LdwU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6e96ca6ce6)
